@@ -13,6 +13,7 @@ public class TotalPunctuations {
         while (m.find()){
             count++;
         }
-        System.out.println(count);
+        System.out.println("Count->"+count);
+        System.out.println(m.find());
     }
 }
