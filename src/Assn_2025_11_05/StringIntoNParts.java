@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class StringIntoNParts {
     public static void main(String[] args) {
-        String str = "abcDEFPQR9";
+        System.out.println("*14. Java Program to Divide a String into N Parts");
+        String str = "A aB bC c1";
         Scanner sc = new Scanner(System.in);
         System.out.println("How many parts you want the String to be broken into:");
         int parts = sc.nextInt();
