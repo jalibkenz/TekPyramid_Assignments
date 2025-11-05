@@ -3,7 +3,7 @@ package Assn_2025_11_04;
 public class Print3rdLargestInArray {
     public static void main(String[] args) {
         System.out.println("8. Java Program to Print the 3rd Largest Element in an Integer Array without Using a Sorting Algorithm");
-        int[] intArr = {67, 45, 23, 14, 2};
+        int[] intArr = {3,2,1};
         printLargest(intArr);
     }
 

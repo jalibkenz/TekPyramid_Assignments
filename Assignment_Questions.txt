@@ -1,12 +1,18 @@
-Assignment-1:
+Assignment-1:   Assn_2025_11_03
 *1. Java Program to Find the Frequency of Elements in an Array
 *2. Java Program to Left Rotate the Elements in an Array by 2 Positions
 *3. Java Program to Right Rotate the Elements in an Array by 2 Positions
 *4. Java Program to Print the Duplicates from an Array
 *5. Java Program to Remove the Duplicates from an Array
-Assignment-2:
+Assignment-2:   Assn_2025_11_04
 *6. Java Program to Print the Largest Element in an Integer Array without Using a Sorting Algorithm
 *7. Java Program to Print the 2nd Largest Element in an Integer Array without Using a Sorting Algorithm
 *8. Java Program to Print the 3rd Largest Element in an Integer Array without Using a Sorting Algorithm
 *9. Java Program to Sort Elements in an Array Using Bubble Sort
-10. Java Program to Find the Total Number of Punctuations Present in a String
+*10. Java Program to Find the Total Number of Punctuations Present in a String
+Assignment-3:   Assn_2025_11_05
+*11. Java Program to Find the Total Number of Vowels Present in a String
+*12. Java Program to Find the Total Number of Consonants Present in a String
+*13. Java Program to Determine if Two Strings are Anagrams
+*14. Java Program to Divide a String into N Parts
+*15. Java Program to Find All Subsets of a String (Example: Subsets of "FUN" -> F, FU, FUN, U, UN, N)
