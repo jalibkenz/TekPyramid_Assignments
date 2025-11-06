@@ -16,3 +16,12 @@ Assignment-3:   Assn_2025_11_05
 *13. Java Program to Determine if Two Strings are Anagrams
 *14. Java Program to Divide a String into N Parts
 *15. Java Program to Find All Subsets of a String (Example: Subsets of "FUN" -> F, FU, FUN, U, UN, N)
+Assignment-4:   Assn_2025_11_06
+*16. Java Program to Find the Maximum and Minimum Occurring Characters in a String
+*17. Java Program to Replace the Spaces in a String with a Specific Character
+*18. Java Program to Replace Lower-Case Characters with Upper-Case and Vice-Versa
+*19. Java Program to Determine Whether a Given String is a Palindrome
+*20. Java Program to Determine Whether One String is a Rotation of Another
+*21. Java Program to Reverse a String Character by Character
+*22. Java Program to Reverse a String Word by Word (Example: "I Love Programming" -> "Programming Love I")
+*23. Java Program to Print the Duplicate Words in a String
