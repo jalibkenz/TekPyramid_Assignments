@@ -11,7 +11,7 @@ public class MaxMinFreqChar {
         System.out.println("Enter the String");
         String str=sc.nextLine();
 
-        //converting the string into char Array and then storing without duplicates in LinkedHashMap
+        //converting the string into char Array
         char[] charArr = str.toCharArray();
         Map<Character, Integer> charMap = new LinkedHashMap<> ();
         for(char x:charArr){
