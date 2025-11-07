@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class MultiTwoMatrices {
     public static void main(String[] args) {
-        System.out.println("25. Java Program to Add Two Matrices");
+        System.out.println("26. Java Program to Multiply Two Matrices");
         Scanner sc = new Scanner(System.in);
         //Array 1
-        System.out.println("Array 1: Enter number of rows required");
+        System.out.println("2D Array 1: Enter number of rows required");
         int rows1 = sc.nextInt();
-        System.out.println("Array 1: Enter number of columns required");
+        System.out.println("2D Array 1: Enter number of columns required");
         int columns1 = sc.nextInt();
 
         //Array 2
-        System.out.println("Array 2: Enter number of rows required");
+        System.out.println("2D Array 2: Enter number of rows required");
         int rows2 = sc.nextInt();
-        System.out.println("Array 2: Enter number of columns required");
+        System.out.println("2D Array 2: Enter number of columns required");
         int columns2 = sc.nextInt();
 
         int[][] matrixOne = new int[rows1][columns1];
