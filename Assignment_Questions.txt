@@ -25,3 +25,8 @@ Assignment-4:   Assn_2025_11_06
 *21. Java Program to Reverse a String Character by Character
 *22. Java Program to Reverse a String Word by Word (Example: "I Love Programming" -> "Programming Love I")
 *23. Java Program to Print the Duplicate Words in a String
+Assignment-5:   Assn_2025_11_07
+24. Java Program to Find the Most Repeated Word in a Text File
+25. Java Program to Add Two Matrices
+26. Java Program to Multiply Two Matrices
+27. Java Program to Find the Transpose of a Matrix
