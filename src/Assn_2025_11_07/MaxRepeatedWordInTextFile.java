@@ -12,6 +12,7 @@ import java.util.Map;
 public class MaxRepeatedWordInTextFile {
     public static void main(String[] args) {
 
+        System.out.println("24. Java Program to Find the Most Repeated Word in a Text File");
         //Read File
         BufferedReader br = null;
         try {
