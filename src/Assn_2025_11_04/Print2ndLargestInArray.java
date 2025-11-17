@@ -1,5 +1,6 @@
 package Assn_2025_11_04;
 
+
 public class Print2ndLargestInArray {
     public static void main(String[] args) {
         System.out.println("7. Java Program to Print the 2nd Largest Element in an Integer Array without Using a Sorting Algorithm");
@@ -8,11 +9,16 @@ public class Print2ndLargestInArray {
     }
     static void printLargest(int[] x){
         int tempMax=x[0];
+//        int tempMax=Integer.MIN_VALUE;
+
         int tempMax2=x[0];
         for (int i = 0; i <= x.length-1; i++) {
-            if(tempMax<x[i]){
+            if(x[i]>tempMax){
                 tempMax2=tempMax;
                 tempMax=x[i];
+            }
+            else if(x[i]>tempMax2 && x[i]!=tempMax){
+                tempMax2=x[i];
             }
         }
         System.out.printf("Largest is %d\n",tempMax);
