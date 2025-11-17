@@ -17,7 +17,7 @@ public class SortArEleBubble {
         int temp;
         boolean swapDone = false;
         for (int j = 0; j < x.length - 1; j++) {
-            for (int i = 0; i < x.length - 1; i++) {
+            for (int i = 0; i < x.length-1-j; i++) {
                 if (x[i] > x[i + 1]) {
                     temp = x[i];
                     x[i] = x[i + 1];
