@@ -9,7 +9,7 @@ public class PrintLargestInArray {
     static void printLargest(int[] x){
         int tempMax=x[0];
         for (int i = 0; i <= x.length-1; i++) {
-            if(tempMax<x[i]){
+            if(x[i]>tempMax){
                 tempMax=x[i];
             }
         }
