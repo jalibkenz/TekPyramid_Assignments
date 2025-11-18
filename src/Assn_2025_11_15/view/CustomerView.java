@@ -8,7 +8,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CustomerView {
-    public static void showMenu(Scanner sc, CustomerService manager) {
+    public static <InvalidInputException> void showMenu(Scanner sc, CustomerService manager) {
         int choice;
         do {
             System.out.println("\n########## CUSTOMER MANAGEMENT ##########");
@@ -30,6 +30,10 @@ public class CustomerView {
                         String name = sc.nextLine();
                         System.out.print("Enter Phone Number: ");
                         String phone = sc.nextLine();
+                        String regex = "^[6-9]\\d{9}$";
+//                        if (!phone.matches(regex)) {
+//                            throw new InvalidInputException("Invalid mobile number format");
+//                        }
                         manager.addCustomer(new Customer(id, name, phone));
                     } catch (DuplicateEntryException e) {
                         System.out.println("⚠️ " + e.getMessage());
@@ -37,6 +41,9 @@ public class CustomerView {
                         System.out.println("⚠️ Invalid input! Customer already exist");
                         sc.nextLine(); // clear invalid input
                     }
+//                    catch (InvalidInputException e) {
+//                        System.out.println("⚠️ " + e.getMessage());
+//                    }
                 }
                 case 2 -> manager.viewCustomers();
                 case 3 -> {
