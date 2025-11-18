@@ -8,8 +8,6 @@ package Assn_2025_11_17.Assn_2025_11_17_2;
 import java.time.Year;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Student2 {
     private String name;
@@ -19,7 +17,7 @@ class Student2 {
     private double gpa;
     private int numberOfIncompleteCourses;
 
-    public Student2(String name,  int age,String major, double gpa, int numberOfIncompleteCourses,int yearsOfEnrollment) {
+    public Student2(String name, int age, String major, double gpa, int numberOfIncompleteCourses, int yearsOfEnrollment) {
         this.name = name;
         this.major = major;
         this.age = age;
