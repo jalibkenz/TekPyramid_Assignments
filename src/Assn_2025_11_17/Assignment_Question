@@ -1,0 +1,95 @@
+Tasks Based on List and Stream API:
+
+// Demo Employee class for the tasks below
+public class Employee {
+    private String name;
+    private String department;
+    private String jobTitle;
+    private int age;
+    private int yearsOfExperience;
+    private double salary;
+    private int performanceRating;
+
+}
+
+Task 1:
+Implement a program that reads a list of Employee objects from the user and performs the following operations:
+Filter out all employees who are managers and have a salary greater than 100,000, but have joined in the last 3 years.
+Sort the remaining employees in descending order of their years of experience, and then by their performance ratings in ascending order.
+Return a new list containing the names of the remaining employee3s, but with each name reversed and in uppercase.
+
+Task 2:
+Create a program that takes a list of Employee objects as input and performs the following operations:
+Filter out all employees who have joined in the last 5 years and have a performance rating of less than 8, but have a salary between 60,000 and 120,000.
+Sort the remaining employees in ascending order of their salaries, and then by their years of experience in descending order.
+Return a new list containing the IDs of the remaining employee3s, but with each ID multiplied by 10.
+
+Task 3:
+Write a program that reads a list of Employee objects from the user and performs the following operations:
+Remove all employees who are part-time and have a salary less than 50,000, but are in the Sales or Marketing department.
+Calculate the sum of the salaries of the remaining employees, but only for those who have more than 3 years of experience.
+Find the average age of the remaining employees, but only for those who have a performance rating of at least 7.
+
+
+
+. Tasks Based on Set and Stream API:
+
+// Demo Student class for the tasks below
+public class Student {
+    private String name;
+    private String major;
+    private int age;
+    private int yearsOfEnrollment;
+    private double gpa;
+    private int numberOfIncompleteCourses;
+    .........
+}
+
+Task 1:
+Write a program that takes a set of Student objects as input and performs the following operations:
+Group the students by their major into a Map where the key is the major and the value is a set of students in that major, but only for majors with more than 5 students and an average GPA above 3.0.
+Sort the students within each major in ascending order of their GPA, and then by their age in descending order.
+Return the Map containing the grouped and sorted students.
+
+Task 2:
+Implement a program that reads a set of Student objects from the user and performs the following operations:
+Filter out all students who have a GPA less than the average GPA of all students, but have an age above 18 and a major in Biology or Chemistry.
+Calculate the total years of enrollment of the remaining students, but only for those who have joined in the last 4 years and are majoring in Computer Science or Engineering.
+Find the student with the highest years of enrollment and return their details, but only if they have an age below 30 and a GPA above 3.7.
+
+==============================================================================
+
+Task 3:
+Create a program that takes a set of Student objects as input and performs the following operations:
+Filter out all students who have joined in the last 3 years and have a major in Mathematics, but have a GPA below 3.0 and are on academic probation.
+Calculate the sum of the GPAs of the remaining students, but only for those who have an age above 22 and a GPA above the average GPA.
+Find the average age of the remaining students, but only if their department has more than 10 students and an average GPA above 3.5.
+Calculate the factorial of the average age, but only if the total years of enrollment of all students is greater than 30 and the average GPA is below 3.9.
+
+
+ Takes Based on Map and Stream API:
+
+// Demo Customer class for the tasks below
+public class Customer {
+    private String id;
+    private String name;
+    private String country;
+    private int age;
+    private int yearsOfMembership;
+    private double balance;
+    private int loyaltyScore;
+    private int numberOfTransactions;
+    .........
+}
+
+Task 1:
+Implement a program that reads a map of Customer objects from the user and performs the following operations:
+Filter out all customers who have a balance less than the average balance of all customers.
+Calculate the total years of membership of the remaining customers.
+Find the customer with the highest years of membership and return their details.
+
+Task 2:
+Create a program that takes a map of Customer objects as input and performs the following operations:
+Filter out all customers who have joined in the last 3 years and have a loyalty score less than 4, but have a balance between 2000 and 5000.
+Calculate the sum of the balances of the remaining customers, but only for those who have an even age.
+Find the average age of the remaining customers, but only if their country has more than 10 customers.
