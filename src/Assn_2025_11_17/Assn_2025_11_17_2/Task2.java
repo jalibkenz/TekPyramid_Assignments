@@ -121,7 +121,8 @@ public class Task2 {
         //but only for those who have joined in the last 4 years and are majoring in Computer Science or Engineering.
         int currentYear = Year.now().getValue();
         int totalYearsOfEnrollment = filteredSet.stream()
-                .filter(student2 -> student2.getYearsOfEnrollment() >= (currentYear - 4) && (student2.getMajor().equals("Computer Science") || student2.getMajor().equals("Engineering")))
+                .filter(student2 -> student2.getYearsOfEnrollment() >= (currentYear - 4)
+                        && (student2.getMajor().equals("Computer Science") || student2.getMajor().equals("Engineering")))
                 .mapToInt(student2 -> student2.getYearsOfEnrollment() - currentYear)
                 .sum();
 
